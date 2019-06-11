@@ -1,0 +1,472 @@
+.heading {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+/* header */
+.backColor {
+    background-color: #3a318a;
+}
+.color {
+    color: #3a318a;
+}
+
+#secondbanner .btn-color{
+    color :white;
+    font-weight: bold;
+}
+
+#header .displayInline {
+    display: inline;
+}
+
+#header .rightIcons {
+    display: block;
+    list-style-type: none;
+}
+
+#header .whiteColor {
+    color: white;
+}
+
+.fullwidth{
+    width:100%;
+}
+
+
+.halfheight{
+    height:50%;
+}
+#header .mainnavbar {
+    background-color: white;
+    color: purple;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* Second Banner  */
+
+#secondbanner .secondbanner-text {
+    background-color:white;
+    opacity:0.8;
+    margin:50px 0px;
+    padding:25px !important;
+    -webkit-box-shadow: 13px 10px 20px -1px rgba(222, 218, 222, 0.5);
+    -moz-box-shadow: 13px 10px 20px -1px rgba(222, 218, 222, 0.5);
+    box-shadow: 13px 10px 20px -1px rgba(222, 218, 222, 0.5);
+}
+
+
+/* Four Banner */
+
+#fourbanner .card-styling {
+    padding: 3% !important;
+    -webkit-box-shadow: -1px 4px 76px -7px rgba(186, 180, 186, 1);
+    -moz-box-shadow: -1px 4px 76px -7px rgba(186, 180, 186, 1);
+    box-shadow: -1px 4px 76px -7px rgba(186, 180, 186, 1);
+}
+#fourbanner .card-text {
+    color: #3a318a;
+    font-family: 'Poppins', sans-serif;
+}
+#fourbanner .card-image-size {
+    width:82px;
+    height:100px
+}
+
+/* Five Banner */
+#fivebanner{
+    padding-top:50px;
+    padding-bottom:15px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.searchBar {
+    border: 0.5px solid white;
+    color: white !important;
+}
+.rightPad {
+    padding-right: 15px;
+}
+
+.leftPad {
+    padding-left: 15px;
+}
+
+.botPad {
+    padding-bottom: 15px;
+}
+
+.topPad {
+    padding-top: 15px;
+}
+
+#sixbanner .sixbanner-background{
+    background:#4f6123;
+    padding:50px;
+    opacity:0.9;
+    color:white;
+    border-radius:10px;
+    z-index:100;
+    -webkit-box-shadow: 33px 37px 46px -14px rgba(79, 97, 35, 0.3);
+    -moz-box-shadow: 33px 37px 46px -14px rgba(79, 97, 35, 0.3);
+    box-shadow: 33px 37px 46px -14px rgba(79, 97, 35, 0.3);
+    padding-top:30px;
+    padding-bottom:30px;
+}
+#sixbanner .roboto {
+    font-family: 'Roboto', sans-serif;
+}
+#sixbanner .wristwatch {
+    display: absolute;
+    left: 200px;
+    width: 100%
+}
+.fontBold{
+    font-weight:bold;
+}
+.padTop50 {
+    padding-top:50px;
+}
+.allPad{
+    padding:15px;
+}
+#footer .greylogo-image{
+    width:150px; 
+    height:150px;
+}
+
+
+.col,
+.col-1,
+.col-10,
+.col-11,
+.col-12,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-auto,
+.col-lg,
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-auto,
+.col-md,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-auto,
+.col-sm,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-auto,
+.col-xl,
+.col-xl-1,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+#search::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #fff;
+}
+
+#search:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #fff;
+}
+
+#search::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #fff;
+}
+
+#search:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #fff;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+#header {
+    background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
+    /* background-position: 100%; */
+    background-position: center top 100px;
+    background-size: cover;
+    width: 100%;
+}
+
+#secondbanner {
+    background-image: url('../img/banner2.jpg');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    width: 100%;
+}
+
+#banner {
+    width: 100%;
+}
+
+#fourbanner {
+    padding: 25px 0px 150px 0px;
+}
+
+#fourbanner .card {
+    position: relative;
+    left: 10%;
+    top: 19px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.fourbanner .card-body p {
+    padding: 15px;
+}
+
+#fourbanner .banner-band {
+    width: 100% !important;
+    position: absolute;
+    bottom: -240px;
+    z-index: -1;
+}
+
+#fourthbanner {
+    background-image: url('../img/run2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-size: 50% 100%; */
+}
+
+#fivebanner {
+    background-image: url('../img/background-ecommerce.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    width: 100%;
+}
+
+#footer {
+    background-image: url('../img/footer.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    width: 100%;
+    padding: 40px;
+}
+
+#sixbanner {
+    background-image: url('../img/background-road.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    width: 100%;
+}
+
+.star-rating {
+    line-height: 32px;
+    font-size: 1.25em;
+}
+
+.star-rating .fa-star {
+    color: yellow;
+}
+
+/* Footer CSS Start */
+
+footer {
+    color: white;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer li {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* Footer CSS ends */
+
+#topheader a {
+    color: black;
+    padding: 0px 20px;
+}
+
+#topheader {
+    padding: 20px;
+}
+
+.banner-band {
+    width: 100% !important;
+}
+
+.fourbanner-width-5 {
+    padding: 5% !important;
+}
+
+.lady-banner {
+    position: absolute;
+    z-index: 10;
+    right: 2%;
+    padding-top: 108px;
+}
+
+strike {
+    padding-right: 20px;
+}
+
+.showonmobile {
+    display: block;
+}
+
+.hideonsmallscreen {
+    display: block !important;
+}
+
+@media screen and (max-width: 760px) {
+    .hideonsm {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hideonsmallscreen {
+        display: block !important;
+    }
+
+    .showonmobile {
+        display: block !important;
+        padding-top: 15px;
+    }
+
+    .card {
+        left: 2% !important;
+    }
+
+    #fourbanner .col-md-6 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    .lady-banner {
+        display: none;
+    }
+
+    .banner-band {
+        display: none;
+    }
+
+    #fourbanner {
+        padding: 0px !important;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .lady-banner {
+        position: absolute;
+        z-index: 10;
+        right: -5% !important;
+        padding-top: 108px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1025px and min-width: 768px) {
+    .banner-band {
+        width: 100% !important;
+        position: absolute;
+        bottom: -168px !important;
+        z-index: -1;
+    }
+
+    .lady-banner {
+        position: absolute;
+        z-index: 10;
+        right: -5% !important;
+        padding-top: 108px !important;
+    }
+}
